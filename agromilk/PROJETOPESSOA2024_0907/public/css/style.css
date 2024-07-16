@@ -1,0 +1,160 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 1.3rem;
+    
+}
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 239, 236);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#header-banner{
+    background-image: linear-gradient(to top ,  rgb(11, 138, 89), rgb(5, 39, 95));
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.logo{
+    padding: 3px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+ul{
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+ 
+}
+li{
+    margin-left: 60px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+    font-size: 0.8rem;
+}
+
+#header-title{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+main{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 30px;  
+}
+
+#section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#cont-img-sec1{
+    flex: 1 1 60%
+}
+
+#div-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 40%;
+    margin-left: 10px;   
+}
+
+#section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 50px;
+    margin: 20px; 
+}
+
+#cont-img{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.img-body{
+    width: 80%;
+}
+
+
+
+.cont-img-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    height:  30vh;
+} 
+
+
+fieldset{
+    border: 1px solid green;
+    width: 100%;
+    padding: 10px;
+}
+
+.input-item{
+    margin-top: 15px;
+}
+
+input{
+
+    width: 60%;
+}
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top ,  rgb(11, 138, 89), rgb(5, 39, 95));
+    color: white;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    box-shadow:  2px 2px 3px rgb(184, 173, 173);
+    border-radius: 0 5px 0 5px;
+}
+
+#login, #senha{
+    margin-bottom: 10px;
+}
